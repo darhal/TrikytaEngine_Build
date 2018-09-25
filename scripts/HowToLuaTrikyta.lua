@@ -33,6 +33,8 @@
 	*) attachAnimationTo(Animation a, Animation b, int offsetX, int offsetY) attach Animation a to b in the given offset
 	*) setAnimationVisible(Animation a, bool visible) set Animation to visible or not (USE THIS INSTEAD OF DELETE)
 	*) isAnimationVisible(Animation a) return a bool wether the Animation is visisble or not
+#Utility functions:
+	*) setTimer(Function func,int TimerPeriod, int NumberofCalls) --TimerPeriod is in ms / put -1 in NumberofCalls to call it forever
 
 --EVENTS:
 	AddEventHandler("OnKeyboardInput", OnKeyboardInput)

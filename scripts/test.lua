@@ -36,13 +36,24 @@ function OnRender(dt)
 	--print("RENDER")
 end
 
+function test()
+	print("Im called every 3000")
+end
+
+function test2()
+	print("Im called forever every 1000")
+end
+
 --Called when engine is already loaded!
 function OnEngineLoad()
-	print("____________________________________________________________________")
-	AddEventHandler("OnKeyboardInput", OnKeyboardInput)
-	AddEventHandler("OnMouseClick", OnMouseClick)
-	AddEventHandler("OnMouseMove", OnMouseMove)
-	AddEventHandler("OnEngineRender", OnRender)
+	--print("____________________________________________________________________")
+	--AddEventHandler("OnKeyboardInput", OnKeyboardInput)
+	--AddEventHandler("OnMouseClick", OnMouseClick)
+	--AddEventHandler("OnMouseMove", OnMouseMove)
+	--AddEventHandler("OnEngineRender", OnRender)
+	setTimer(test, 3000, 3) -- call test every 3000 for 3 times
+	
+	setTimer(test2, 1000, -1) -- call test2 every 3000 forever
 end
 AddEventHandler("OnEngineLoad", OnEngineLoad)
 
