@@ -51,9 +51,9 @@ function OnEngineLoad()
 	--AddEventHandler("OnMouseClick", OnMouseClick)
 	--AddEventHandler("OnMouseMove", OnMouseMove)
 	--AddEventHandler("OnEngineRender", OnRender)
-	setTimer(test, 3000, 3) -- call test every 3000 for 3 times
+	--setTimer(test, 3000, 3) -- call test every 3000 for 3 times
 	
-	setTimer(test2, 1000, -1) -- call test2 every 3000 forever
+	--setTimer(test2, 1000, -1) -- call test2 every 3000 forever
 end
 AddEventHandler("OnEngineLoad", OnEngineLoad)
 
