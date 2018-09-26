@@ -8,10 +8,11 @@ Currently the engine features are limited to:
 * Sprites creation
 * Animations
 * Engine Basics
-* Inputs
-* Physics
-* Tiled Maps
-* Events
+* Physics (Not fully exposed to LUA)
+* Tiled Maps (Not fully exposed to LUA)
+* Events 
+* Timers
+* Console
 
 ## Coming Features
 
