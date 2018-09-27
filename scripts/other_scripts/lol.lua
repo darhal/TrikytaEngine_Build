@@ -1,13 +1,13 @@
---[[
+
 function Call()
 	print("EVERY 5K MS for 2 times")
 end
 
 function OnEngineLoad()
-	outputConsole("ERROR FROM LUA!", "eRror")
+	--[[outputConsole("ERROR FROM LUA!", "eRror")
 	outputConsole("warning FROM LUA!", "warning")
 	outputConsole("info FROM LUA!", "info")
-	outputCConsole("Custom color message from lua", 125, 125, 125)
+	outputCConsole("Custom color message from lua", 125, 125, 125)--]]
 	--setTimer(Call, 50, 5)
 	--attachTo(b,a, 0.5,0.5)
 	--setSpriteVisible(a, false)
@@ -31,4 +31,3 @@ function OnKeyboardInput()
 end
 --AddEventHandler("OnKeyboardInput", OnKeyboardInput)
 
---]]

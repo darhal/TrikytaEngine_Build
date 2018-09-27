@@ -21,6 +21,6 @@
 -Thomas Decroix (Tricky Patrick aka.ThoThoBoss)
 --]]
 
-WINDOW_WIDTH = 1024 
-WINDOW_HEIGHT = 768
+WINDOW_WIDTH = 1024 *1.2
+WINDOW_HEIGHT = 768*1.2
 WINDOW_NAME = "Trikyta Engine"
