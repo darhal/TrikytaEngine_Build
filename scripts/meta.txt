@@ -1,2 +1,2 @@
 test.lua;
-other_scripts/lol.lua;
+scripts/lol.lua;

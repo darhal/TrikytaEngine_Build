@@ -1,26 +1,17 @@
 --[[
---TRIKYTA ENGINE AVAIALBLE FUNCTIONS:
-*) CreateSprite(String path, int w, int h, int x, int y) return sprite
-*) GetPos(Sprite a) return position of sprite
-*) SetPos(a, x, y) return set pos of sprite to x, y
-*) Sleep(int t) pause program for t milisecond
-*) DelSprite(Sprite a) delete a sprite (DONT DELETE TWICE IT GONNA CRASH TRUST ME)
-
---EVENTS:
-	AddEventHandler("OnKeyboardInput", OnKeyboardInput)
-	AddEventHandler("OnMouseClick", OnMouseClick)
-	AddEventHandler("OnMouseMove", OnMouseMove)
-	AddEventHandler("OnEngineRender", OnRender)
-	AddEventHandler("OnEngineLoad", OnEngineLoad)
-	AddEventHandler("OnEnginePreInit", OnPreInit)
-	
---Function syntax:
-	AddEventHandler(String event, Function ToBeCalledOnEvent)
-
+--TRIKYTA ENGINE:
+	Check HowToLuaTrikyta.lua for documentation
 --Special thanks to:
--Thomas Decroix (Tricky Patrick aka.ThoThoBoss)
+--Thomas Decroix (Tricky Patrick aka.ThoThoBoss)
 --]]
 
-WINDOW_WIDTH = 1024 *1.2
-WINDOW_HEIGHT = 768*1.2
-WINDOW_NAME = "Trikyta Engine"
+WINDOW_WIDTH				= 1024*1.2				--WINDOW WIDTH
+WINDOW_HEIGHT				= 768*1.2				--WINDOW HEIGHT
+WINDOW_NAME					= "Trikyta Engine"		--WINDOW NAME
+ACCELERATION_RATE			= 1						--THE LOWER THE FASTER
+PHYSICS_DEBUG				= true					--SHOW PHYSICS BODIES
+PHYSICS_TIME_STEP			= 1/60					--PHYSICS UPDATE RATE
+PHYSICS_VELOCITY_ITERATIONS = 8						--PHYSICS VELCOTIY ITERATIONS
+PHYSICS_POSITION_ITERATIONS = 3						--PHYSICS POSITION ITERATIONS
+PHYSICS_WORLD_GRAVITY_X		= 0						--PHYSICS WORLD GRAVITY X
+PHYSICS_WORLD_GRAVITY_Y		= 10					--PHYSICS WORLD GRAVITY Y
