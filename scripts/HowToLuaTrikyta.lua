@@ -79,6 +79,9 @@
 	*) getBodyPosition(Body b) return float x,y
 	*) setBodyTransform(Body b, float x, float y, float angle) 
 	*) deleteBody(Body b) delete a body if it exsit
+
+#Maps
+	*) Map.createMap(String path)
 	
 #Console functions:
 	*) outputConsole(String text, String type): type can be "error", "warning", "info" the case doesnt matter so "error" is count as "ErRor"
@@ -88,6 +91,17 @@
 		outputConsole("warning FROM LUA!", "warning")
 		outputConsole("info FROM LUA!", "info")
 		outputCConsole("Custom color message from lua", 125, 125, 125)
+		
+#Console built in commands
+	*) restart path -> restart the scripts
+		e.g:
+			restart test.lua
+			restart misc/GameLogic.lua
+	*) physics_debug bool -> enable physics debug draws if bool is true it disable drawing otherwise
+		e.g:
+			physics_debug true -> enable physics debug drawing
+			physics_debug lol -> disable physics debug drawing
+		
 --EVENTS:
 	AddEventHandler("OnKeyboardInput", OnKeyboardInput)
 	AddEventHandler("OnMouseClick", OnMouseClick)
