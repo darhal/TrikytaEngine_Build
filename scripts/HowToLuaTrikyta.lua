@@ -101,7 +101,7 @@
 		e.g:
 			physics_debug true -> enable physics debug drawing
 			physics_debug lol -> disable physics debug drawing
-		
+			physics_debug false -> disable physics debug drawing
 --EVENTS:
 	AddEventHandler("OnKeyboardInput", OnKeyboardInput)
 	AddEventHandler("OnMouseClick", OnMouseClick)

@@ -5,7 +5,7 @@
 --Thomas Decroix (Tricky Patrick aka.ThoThoBoss)
 --]]
 
-WINDOW_WIDTH				= 1024*1.2				--WINDOW WIDTH
+WINDOW_WIDTH				= 1024*1.6				--WINDOW WIDTH
 WINDOW_HEIGHT				= 768*1.2				--WINDOW HEIGHT
 WINDOW_NAME					= "Trikyta Engine"		--WINDOW NAME
 ACCELERATION_RATE			= 1						--THE LOWER THE FASTER
