@@ -1,0 +1,10 @@
+JumpAttack (1),4473,5044,587,707
+JumpAttack (2),3885,3540,587,707
+JumpAttack (3),1764,0,587,707
+JumpAttack (4),1533,5044,587,707
+JumpAttack (5),588,0,587,707
+JumpAttack (6),1533,3540,587,707
+JumpAttack (7),0,2124,587,707
+JumpAttack (8),588,2832,587,707
+JumpAttack (9),0,2832,587,707
+JumpAttack (10),2709,4292,587,707
